@@ -11,7 +11,7 @@ plugins {
 
 android {
   namespace = "com.example"
-  compileSdk = 34
+  compileSdk = 35
 
   defaultConfig {
     applicationId = "com.aistudio.dekkhotube.app"
