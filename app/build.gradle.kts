@@ -14,6 +14,7 @@ android {
   compileSdk = 36
 
   defaultConfig {
+        multiDexEnabled = true
     applicationId = "com.aistudio.dekkhotube.app"
     minSdk = 24
     targetSdk = 36
@@ -125,3 +126,4 @@ dependencies {
   "ksp"(libs.androidx.room.compiler)
   "ksp"(libs.moshi.kotlin.codegen)
 }
+implementation("androidx.multidex:multidex:2.0.1")
