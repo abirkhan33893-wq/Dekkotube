@@ -14,8 +14,6 @@ android {
   compileSdk = 36
 
   defaultConfig {
-    multiDexEnabled = true
-        multiDexEnabled = true
     applicationId = "com.aistudio.dekkhotube.app"
     minSdk = 24
     targetSdk = 36
@@ -73,7 +71,6 @@ googleServices { missingGoogleServicesStrategy = MissingGoogleServicesStrategy.W
 // Some unused dependencies are commented out below instead of being removed.
 // This makes it easy to add them back in the future if needed.
 dependencies {
-    implementation("androidx.multidex:multidex:2.0.1")
   implementation(platform(libs.androidx.compose.bom))
   implementation(platform(libs.firebase.bom))
   implementation(libs.accompanist.permissions)
@@ -128,4 +125,3 @@ dependencies {
   "ksp"(libs.androidx.room.compiler)
   "ksp"(libs.moshi.kotlin.codegen)
 }
-implementation("androidx.multidex:multidex:2.0.1")
