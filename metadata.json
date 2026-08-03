@@ -1,6 +1,0 @@
-{
-  "name": "DekkhoTube",
-  "description": "A modern social media app with video feeds, Shorts, chat, profile, search, and community features.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
